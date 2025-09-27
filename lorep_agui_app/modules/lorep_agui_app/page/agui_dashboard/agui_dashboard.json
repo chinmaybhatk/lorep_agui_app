@@ -1,0 +1,19 @@
+{
+ "creation": "2024-01-01 00:00:00.000000",
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "name": "agui_dashboard",
+ "owner": "Administrator",
+ "page_name": "AgUI Dashboard",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Administrator"
+  }
+ ],
+ "title": "AgUI Dashboard"
+}

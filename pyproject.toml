@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "lorep_agui_app"
+authors = [
+    {name = "Your Company", email = "developer@company.com"},
+]
+dynamic = ["version", "description"]
+readme = "README.md"
+dependencies = [
+    "frappe>=15.0.0,<16.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/lorep_agui_app"
+Repository = "https://github.com/yourusername/lorep_agui_app.git"
+
+[tool.bench.dev-dependencies]
+coverage = "*"

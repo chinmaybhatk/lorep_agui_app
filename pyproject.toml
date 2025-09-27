@@ -10,12 +10,12 @@ authors = [
 dynamic = ["version", "description"]
 readme = "README.md"
 dependencies = [
-    "frappe>=15.0.0,<16.0.0"
+    "openai>=1.0.0"
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/lorep_agui_app"
-Repository = "https://github.com/yourusername/lorep_agui_app.git"
+Homepage = "https://github.com/chinmaybhatk/lorep_agui_app"
+Repository = "https://github.com/chinmaybhatk/lorep_agui_app.git"
 
 [tool.bench.dev-dependencies]
 coverage = "*"
